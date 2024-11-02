@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Heitor</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <header id="header" class="header">
+        <div class="container">
+            <nav class="nav">
+                <a href="index.html" class="nav__brand">
+                    <i class="ri-code-s-slash-line"></i>Developer
+                </a>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#hero" class="nav__link">Inicio</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">Sobre Mim</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#qualification" class="nav__link">Qualificação</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#service" class="nav__link">Habilidades</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#project" class="nav__link">Portfolio</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">Contato</a>
+                        </li>
+                        <li class="nav__item">
+                            <button id="toggleMode"><img id="toggleimg" src="/assets/img/sun.png" alt=""></button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nav__toggle">
+                    <i id="nav-toggle" class="ri-menu-3-line"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <section id="hero" class="hero">
+            <div class="container">
+                <div class="d-grid hero__wrapper">
+                    <div class="hero__content">
+                        <h1 class="hero__title">Olá eu sou,<br>Heitor Oliveira.</h1>
+                        <p class="hero__description">Bem-vindo ao meu portfólio! Aqui, você encontrará uma coleção dos
+                            meus projetos, que demonstram minhas habilidades em desenvolvimento web, design responsivo e
+                            programação backend. Cada trabalho reflete minha dedicação em criar soluções eficientes e
+                            inovadoras. Navegue pelos projetos e veja como posso contribuir para suas ideias.</p>
+                        <div class="hero__info">
+                            <div class="hero__info-wrapper">
+                                <p class="hero__info-number">02</p>
+                                <h2 class="hero__info-title">Anos de<br>Experiência</h2>
+                            </div>
+                            <div class="hero__info-wrapper">
+                                <p class="hero__info-number">10+</p>
+                                <h2 class="hero__info-title">Projetos<br>Concluidos</h2>
+                            </div>
+                            <div class="hero__info-wrapper">
+                                <p class="hero__info-number">05</p>
+                                <h2 class="hero__info-title">Trabalhos<br> Feitos</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="assets/img/hero1.jpg" alt="Heitor" class="hero__img">
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section about">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Sobre Mim</h2>
+                    <span class="section__subtitle">Quem eu sou?</span>
+                </div>
+                <div class="d-grid about__wrapper">
+                    <div class="about__content">
+                        <h3 class="about__title">Sou Estudante e desenvolverdor Full Stack.</h3>
+                        <p class="about__description">Sou um estudante de 16 anos no Cotemig, onde estou aprendendo tudo
+                            sobre informática.
+                            Além das aulas, gosto de programar meus próprios projetos e explorar novas ferramentas.
+                            Nas horas livres, gosto de ler sobre inovações na área, jogar e passar tempo com meus
+                            amigos.
+                            Estou sempre em busca de desafios que me ajudem a crescer e me preparar para o futuro. </p>
+                        <a href="#about" class="btn btn--primary">Saiba Mais</a>
+                    </div>
+                    <div class="skills">
+                        <h3 class="skills__title">Linguagens que eu trabalho:</h3>
+                        <div class="skills__wrapper">
+                            <div class="skills__content">
+                                <h4 class="skills__subtitle">Backend</h4>
+                                <ul class="skills__list">
+                                    <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
+                                        Python</li>
+                                    <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
+                                        PHP</li>
+                                    <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
+                                        C#</li>
+                                    <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
+                                        MySQL</li>
+                                </ul>
+                            </div>
+                            <div class="skills__content">
+                                <h4 class="skills__subtitle">Frontend</h4>
+                                <ul class="skills__list">
+                                    <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
+                                        HTML</li>
+                                    <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
+                                        CSS</li>
+                                    <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
+                                        JavaScript</li>
+                                    <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
+                                        Bootstrap</li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="qualification" class="section qualification">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Qualificação</h2>
+                    <span class="section__subtitle">Experiência e Educação</span>
+                </div>
+                <div class="qualification__wrapper">
+                    <h3 class="qualification__name">
+                        <i class="ri-briefcase-fill"></i>
+                        Experiência Profissional
+                    </h3>
+                    <div class="d-grid qualification__content">
+                        <div class="qualification__item">
+                            <h3 class="qualification__title">Garçom na Hípica</h3>
+                            <p class="qualification__description"> Parece um trabalho simples, mas exige muito trabalho
+                                em equipe e habilidades de comunicação
+                                e resolução de problemas.</p>
+                            <span class="qualification__date">2023 - 2024</span>
+                        </div>
+                        <div class="qualification__item">
+                            <h3 class="qualification__title">Trabalho no Lava-Jato</h3>
+                            <p class="qualification__description"> Trabalhei no Lava-Jato do meu tio e isso que me
+                                convenceu a trabalhar na frente de um computador.</p>
+                            <span class="qualification__date">2023 - 2024</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="qualification__wrapper">
+                    <h3 class="qualification__name">
+                        <i class="ri-booklet-fill"></i>
+                        Educação
+                    </h3>
+                    <div class="d-grid qualification__content">
+                        <div class="qualification__item">
+                            <h3 class="qualification__title">Rede de Computadores - COTEMIG</h3>
+                            <p class="qualification__description"> Aprendemos a configurar redes de computadores e a
+                                fazer um bom trabalho em equipe, aprendemos também vários conceitos de hardware e
+                                software.</p>
+                            <span class="qualification__date">2023 - 2024</span>
+                        </div>
+                        <div class="qualification__item">
+                            <h3 class="qualification__title">Front-End - COTEMIG</h3>
+                            <p class="qualification__description"> Aprendemos a mexer com UX/UI design e a transformar
+                                isso em HTML, CSS e JavaScript.</p>
+                            <span class="qualification__date">2023 - 2024</span>
+                        </div>
+                        <div class="qualification__item">
+                            <h3 class="qualification__title">Banco de Dados - COTEMIG</h3>
+                            <p class="qualification__description"> Aprendemos a mexer com MariaDB fazer CRUID e gerenciar um banco de dados.</p>
+                            <span class="qualification__date">2023 - 2024</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="service" class="section service">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Portfólio</h2>
+                    <span class="section__subtitle">O que eu faço ?</span>
+                </div>
+                <div class="d-grid service__wrapper">
+                    <div class="service__card">
+                        <div class="service__icon">
+                            <i class="ri-layout-4-fill"></i>
+                        </div>
+                        <h3 class="service__title">Desenvolvimento<br>Frontend</h3>
+                        <a href="#project" class="service__link">Saiba Mais</a>
+                    </div>
+                    <div class="service__card">
+                        <div class="service__icon">
+                            <i class="ri-code-s-slash-line"></i>
+                        </div>
+                        <h3 class="service__title">Desenvolvimento<br>Backend</h3>
+                        <a href="#project" class="service__link">Saiba Mais</a>
+                    </div>
+                    <div class="service__card">
+                        <div class="service__icon">
+                            <i class="ri-pen-nib-fill"></i>
+                        </div>
+                        <h3 class="service__title">UI/UX<br> Design</h3>
+                        <a href="#project" class="service__link">Saiba Mais</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="project" class="section project">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Projetos</h2>
+                    <span class="section__subtitle">Meus trabalhos recentes</span>
+                </div>
+                <div class="d-grid project__wrapper">
+                    <div class="project__content">
+                        <img src="assets/img/Ogani.png" alt="" class="project__img">
+                        <h3 class="project__title">Ogani - Grid</h3>
+                        <p class="project__description"> Reprodução de um site de delivery de comida saudável.</p>
+                        <a href="#" class="project__link">Ver Projeto
+                            <i class="ri-arrow-right-line"></i></a>
+                    </div>
+                    <div class="project__content">
+                        <img src="assets/img/elit-photos.png" alt="" class="project__img">
+                        <h3 class="project__title">Elit-Photography</h3>
+                        <p class="project__description"> Reprodução de um site de portfolio de fotografias.</p>
+                        <a href="#" class="project__link">Ver  Projeto
+                            <i class="ri-arrow-right-line"></i></a>
+                    </div>
+                    <div class="project__content">
+                        <img src="assets/img/hs-delivery.png" alt="" class="project__img">
+                        <h3 class="project__title">Hs Delivery</h3>
+                        <p class="project__description"> Site de Delivery totalmente desenvolvido por mim.</p>
+                        <a href="#" class="project__link">Ver Projeto
+                            <i class="ri-arrow-right-line"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="section__header">
+            <h2 class="section__title">Contato</h2>
+            <span class="section__subtitle">Faça contato  comigo</span>
+
+        </div>
+        <section class="contact-form-container">
+
+            <form id="contactForm">
+                <div class="form-group">
+                    <label for="name">Nome</label>
+                    <input type="text" id="name" placeholder="Digite seu nome" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Digite seu email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Mensagem</label>
+                    <textarea id="message" placeholder="Digite sua mensagens" rows="15" required></textarea>
+                </div>
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+        </section>
+    </main>
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="d-grid footer__wrapper">
+                <div class="footer__content">
+                    <h4 class="footer__title">Me Siga</h4>
+                    <ul class="footer__social-list">
+                        <li class="footer__social-item">
+                            <a href="https://www.instagram.com/heitor.obs/" class="footer__social-link">
+                                <i class="ri-instagram-fill"></i>
+                            </a>
+                        </li>
+
+                        <li class="footer__social-item">
+                            <a href="" class="footer__social-link">
+                                <i class="ri-github-fill"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__content">
+                    <h4 class="footer__title">Email</h4>
+                    <a href="#" class="footer__contact">heitorobs2007@gmail.com</a>
+                </div>
+                <div class="footer__content">
+                    <h4 class="footer__title">Telefone</h4>
+                    <a href="#" class="footer__contact">(31) 98405-1972</a>
+                </div>
+            </div>
+            <p class="footer__copyright">&copy; Heitorb Oliveira 2024. Todos os direitos reservados</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
